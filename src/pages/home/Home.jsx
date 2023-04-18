@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import logo from "../../logos/AskEDGAR.png"; // Placeholder logo
 import amazonLogo from "../../logos/amazon.png"; // Company 1 logo
 import appleLogo from "../../logos/apple.png"; // Company 2 logo
@@ -9,63 +8,54 @@ import brkLogo from "../../logos/berkshirehathaway.png"; // Company 5 logo
 import "./home.css";
 
 function Home() {
-  const [showOptions, setShowOptions] = useState(false);
-
-  const toggleOptions = () => {
-    setShowOptions(!showOptions);
-  };
-
   return (
     <div className="Home">
       <header className="Home-header">
         <div className="Logo-container">
           <img src={logo} className="Home-logo" alt="logo" />
         </div>
-        <div className="Company-logos">
-          <img
-            src={amazonLogo}
-            className="Company-logo amazon"
-            alt="company1-logo"
-          />
-          <img
-            src={appleLogo}
-            className="Company-logo apple"
-            alt="company2-logo"
-          />
-          <img
-            src={microsoftLogo}
-            className="Company-logo microsoft"
-            alt="company3-logo"
-          />
-          <img
-            src={nvidiaLogo}
-            className="Company-logo nvidia"
-            alt="company4-logo"
-          />
-          <img src={brkLogo} className="Company-logo brk" alt="company5-logo" />
-        </div>
         <div className="Product-introduction">
-          <h1>Chat with SEC 10-Ks</h1>
-          <p>
+          <h1 className="title">Chat with SEC 10-Ks</h1>
+          <p className="content">
             We are building a tool that uses the power of open source LLM tools
             to streamline the retrieval/synthesis process for working with SEC
-            filings. Try our demo today or visit our Blog to learn how to deploy
-            your own.
+            filings.
           </p>
-          <div className="Button">
-            <button onClick={toggleOptions}>Learn More</button>
+          <p className="content">
+            Try our demo today or visit our blogs to learn how to deploy your
+            own.
+          </p>
+          <div className="Company-logos">
+            <img
+              src={amazonLogo}
+              className="Company-logo amazon"
+              alt="company1-logo"
+            />
+            <img
+              src={appleLogo}
+              className="Company-logo apple"
+              alt="company2-logo"
+            />
+            <img
+              src={microsoftLogo}
+              className="Company-logo microsoft"
+              alt="company3-logo"
+            />
+            <img
+              src={nvidiaLogo}
+              className="Company-logo nvidia"
+              alt="company4-logo"
+            />
+            <img
+              src={brkLogo}
+              className="Company-logo brk"
+              alt="company5-logo"
+            />
           </div>
-          {showOptions && (
-            <div className="Options-container">
-              <ul>
-                <li>Option 1</li>
-                <li>Option 2</li>
-                <li>Option 3</li>
-                <li>Option 4</li>
-                <li>Option 5</li>
-              </ul>
-            </div>
-          )}
+          <div className="Buttons">
+            <button>Try Demo</button>
+            <button>View Blogs</button>
+          </div>
         </div>
       </header>
     </div>

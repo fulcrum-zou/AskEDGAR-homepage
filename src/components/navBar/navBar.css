@@ -1,11 +1,12 @@
 .navBar {
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   background-color: #f7f6f2;
   color: #1c3879;
-  position: sticky;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600
 }
 
 nav ul {
@@ -17,10 +18,16 @@ nav ul {
 
 nav ul li {
   margin-right: 20px;
+  margin-left: 30px;
 }
 
 nav ul li a {
   color: #1c3879;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+nav ul li a:hover {
+    color: #607EAA;
+    transition: 0.4s all;
 }

@@ -3,44 +3,54 @@
   background-color: #f7f6f2;
   color: #1c3879;
   height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .Home-logo {
-  height: 15vmin;
+  height: 15vh;
+  transition: 0.7s all;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px;
+.Home-logo:hover {
+  cursor: pointer;
+  height: 17vh;
 }
 
 .Logo-container {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .Company-logos {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 50px;
+  height: 100px;
 }
 
 .Company-logo {
+  height: 80px;
+  margin: 0 25px;
+  transition: 0.7s all;
+}
+
+.Company-logo:hover {
+  cursor: pointer;
   height: 100px;
-  margin: 0 20px;
 }
 
 .Product-introduction {
-  margin-top: 50px;
-  max-width: 800px;
+  margin-top: 40px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
 .Product-introduction h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .Product-introduction p {
@@ -89,22 +99,29 @@ nav {
   background-color: #444;
 }
 
-.Button {
-  margin-top: 50px;
+.Buttons {
+  margin-top: 70px;
   text-align: center;
 }
 
-.Button a {
-  display: inline-block;
-  padding: 16px 32px;
-  background-color: #5294e2;
-  color: #fff;
-  font-size: 24px;
-  text-decoration: none;
-  border-radius: 30px;
-  transition: background-color 0.2s ease-in-out;
+.Buttons button {
+width: 200px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  background-color: #1c3879;
+  color: #f7f6f2;
+  border: none;
+  border-radius: 20px;
+  transition: 0.7s all;
 }
 
-.Button a:hover {
-  background-color: #4079bd;
+.Buttons button:hover {
+    cursor: pointer;
+    background-color: #607EAA;
+    box-shadow: 0 0 4px 2px #aaa;
 }
