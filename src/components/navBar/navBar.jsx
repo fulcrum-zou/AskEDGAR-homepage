@@ -8,7 +8,7 @@ export default function NavBar() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/blogs">Blogs</a>
+          <a href="https://askedgar.ghost.io/" target="_blank">Blogs</a>
         </li>
         <li>
           <a href="/team">Team</a>

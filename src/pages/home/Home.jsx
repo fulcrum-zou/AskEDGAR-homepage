@@ -26,11 +26,13 @@ function Home() {
             own.
           </p>
           <div className="Company-logos">
-            <img
-              src={amazonLogo}
-              className="Company-logo amazon"
-              alt="company1-logo"
-            />
+            <a href="https://test2-three-eta.vercel.app/" target="_blank">
+              <img
+                src={amazonLogo}
+                className="Company-logo amazon"
+                alt="company1-logo"
+              />
+            </a>
             <img
               src={appleLogo}
               className="Company-logo apple"
@@ -53,8 +55,12 @@ function Home() {
             />
           </div>
           <div className="Buttons">
-            <button>Try Demo</button>
-            <button>View Blogs</button>
+            <a href="https://test2-three-eta.vercel.app/" target="_blank">
+              <button>Try Demo</button>
+            </a>
+            <a href="https://askedgar.ghost.io/" target="_blank">
+              <button>View Blogs</button>
+            </a>
           </div>
         </div>
       </header>
