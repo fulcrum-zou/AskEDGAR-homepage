@@ -16,23 +16,10 @@ function Home() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <nav>
-          <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/blogs">Blogs</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
+    <div className="Home">
+      <header className="Home-header">
         <div className="Logo-container">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="Home-logo" alt="logo" />
         </div>
         <div className="Company-logos">
           <img
