@@ -1,0 +1,128 @@
+.App {
+    text-align: center;
+    background-color: #F7F6F2;
+    color: #1C3879;
+    height: 100vh;
+  }
+  
+  .App-logo {
+      height: 15vmin;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #1C3879;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .Logo-container {
+    padding-top: 50px;
+  }
+  
+  .Company-logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .Company-logo {
+    height: 100px;
+    margin: 0 20px;
+  }
+  
+  .Product-introduction {
+    margin-top: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .Product-introduction h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .Product-introduction p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .Product-introduction button {
+    background-color: #1C3879;
+    color: #F7F6F2;
+    font-size: 24px;
+    padding: 10;
+  }
+  
+  .Options-container {
+      margin-top: 50px;
+      text-align: center;
+    }
+    
+    .Options-container h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    
+    .Options-container ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .Options-container li {
+      margin-right: 20px;
+      font-size: 24px;
+      cursor: pointer;
+      color: #fff;
+      border-radius: 20px;
+      padding: 10px 20px;
+      background-color: #2d2d2d;
+      transition: background-color 0.2s ease-in-out;
+    }
+    
+    .Options-container li:hover {
+      background-color: #444;
+    }
+    
+    .Button {
+      margin-top: 50px;
+      text-align: center;
+    }
+    
+    .Button a {
+      display: inline-block;
+      padding: 16px 32px;
+      background-color: #5294e2;
+      color: #fff;
+      font-size: 24px;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: background-color 0.2s ease-in-out;
+    }
+    
+    .Button a:hover {
+      background-color: #4079bd;
+    }
+    
